@@ -18,9 +18,6 @@ class ProcessTextActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.float_dict_activity)
 
-
-
-
         var key = getIntent().getCharSequenceExtra(Intent.EXTRA_PROCESS_TEXT).toString()
 
         result.text=key
